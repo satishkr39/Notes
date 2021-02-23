@@ -1,0 +1,35 @@
+{
+  "name": "download_headless_or_visual",
+  "description": "Downloads a resource but it uses only selectors with html, nothing with wnd or aa or uia",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.Excel.Activities": "[2.7.1-beta.557523]",
+    "UiPath.Mail.Activities": "[1.7.1-beta.557462]",
+    "UiPath.System.Activities": "[19.10.0-beta.558599]",
+    "UiPath.UIAutomation.Activities": "[19.10.0-beta.565139]"
+  },
+  "webServices": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "19.10.0.98",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "isPausable": true,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    }
+  },
+  "expressionLanguage": "VisualBasic"
+}
